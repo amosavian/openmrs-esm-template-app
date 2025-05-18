@@ -3188,7 +3188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-api@npm:6.3.1-pre.2965":
+"@openmrs/esm-api@npm:6.3.1-pre.2965, @openmrs/esm-api@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-api@npm:6.3.1-pre.2965"
   dependencies:
@@ -3238,7 +3238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-config@npm:6.3.1-pre.2965":
+"@openmrs/esm-config@npm:6.3.1-pre.2965, @openmrs/esm-config@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-config@npm:6.3.1-pre.2965"
   dependencies:
@@ -3252,7 +3252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-context@npm:6.3.1-pre.2965":
+"@openmrs/esm-context@npm:6.3.1-pre.2965, @openmrs/esm-context@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-context@npm:6.3.1-pre.2965"
   dependencies:
@@ -3274,7 +3274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-error-handling@npm:6.3.1-pre.2965":
+"@openmrs/esm-error-handling@npm:6.3.1-pre.2965, @openmrs/esm-error-handling@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-error-handling@npm:6.3.1-pre.2965"
   peerDependencies:
@@ -3283,7 +3283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-expression-evaluator@npm:6.3.1-pre.2965":
+"@openmrs/esm-expression-evaluator@npm:6.3.1-pre.2965, @openmrs/esm-expression-evaluator@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-expression-evaluator@npm:6.3.1-pre.2965"
   dependencies:
@@ -3298,7 +3298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-extensions@npm:6.3.1-pre.2965":
+"@openmrs/esm-extensions@npm:6.3.1-pre.2965, @openmrs/esm-extensions@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-extensions@npm:6.3.1-pre.2965"
   dependencies:
@@ -3315,7 +3315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-feature-flags@npm:6.3.1-pre.2965":
+"@openmrs/esm-feature-flags@npm:6.3.1-pre.2965, @openmrs/esm-feature-flags@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-feature-flags@npm:6.3.1-pre.2965"
   dependencies:
@@ -3363,7 +3363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-globals@npm:6.3.1-pre.2965":
+"@openmrs/esm-globals@npm:6.3.1-pre.2965, @openmrs/esm-globals@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-globals@npm:6.3.1-pre.2965"
   dependencies:
@@ -3374,7 +3374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-navigation@npm:6.3.1-pre.2965":
+"@openmrs/esm-navigation@npm:6.3.1-pre.2965, @openmrs/esm-navigation@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-navigation@npm:6.3.1-pre.2965"
   dependencies:
@@ -3385,7 +3385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-offline@npm:6.3.1-pre.2965":
+"@openmrs/esm-offline@npm:6.3.1-pre.2965, @openmrs/esm-offline@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-offline@npm:6.3.1-pre.2965"
   dependencies:
@@ -3402,7 +3402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-react-utils@npm:6.3.1-pre.2965":
+"@openmrs/esm-react-utils@npm:6.3.1-pre.2965, @openmrs/esm-react-utils@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-react-utils@npm:6.3.1-pre.2965"
   dependencies:
@@ -3444,7 +3444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-state@npm:6.3.1-pre.2965":
+"@openmrs/esm-state@npm:6.3.1-pre.2965, @openmrs/esm-state@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-state@npm:6.3.1-pre.2965"
   dependencies:
@@ -3491,8 +3491,22 @@ __metadata:
   resolution: "@openmrs/esm-template-app@workspace:."
   dependencies:
     "@carbon/react": "npm:^1.76.0"
+    "@openmrs/esm-api": "npm:next"
+    "@openmrs/esm-config": "npm:next"
+    "@openmrs/esm-context": "npm:next"
+    "@openmrs/esm-error-handling": "npm:next"
+    "@openmrs/esm-expression-evaluator": "npm:next"
+    "@openmrs/esm-extensions": "npm:next"
+    "@openmrs/esm-feature-flags": "npm:next"
     "@openmrs/esm-framework": "npm:next"
+    "@openmrs/esm-globals": "npm:next"
+    "@openmrs/esm-navigation": "npm:next"
+    "@openmrs/esm-offline": "npm:next"
+    "@openmrs/esm-react-utils": "npm:next"
+    "@openmrs/esm-state": "npm:next"
     "@openmrs/esm-styleguide": "npm:next"
+    "@openmrs/esm-translations": "npm:next"
+    "@openmrs/esm-utils": "npm:next"
     "@playwright/test": "npm:^1.52.0"
     "@swc/cli": "npm:^0.3.12"
     "@swc/core": "npm:^1.3.68"
@@ -3510,6 +3524,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^7.8.0"
     "@typescript-eslint/parser": "npm:^7.8.0"
     css-loader: "npm:^6.8.1"
+    dayjs: "npm:^1.11.10"
     dotenv: "npm:^16.0.3"
     eslint: "npm:^8.50.0"
     eslint-config-prettier: "npm:^8.8.0"
@@ -3517,7 +3532,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.1.3"
     eslint-plugin-react-hooks: "npm:^4.6.2"
     husky: "npm:^8.0.3"
-    i18next: "npm:^23.2.8"
+    i18next: "npm:^21.9.2"
     i18next-parser: "npm:^9.0.2"
     identity-obj-proxy: "npm:^3.0.0"
     jest: "npm:^29.7.0"
@@ -3530,16 +3545,19 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-i18next: "npm:^11.18.6"
+    react-is: "npm:^18.2.0"
     react-router-dom: "npm:^6.14.1"
     rxjs: "npm:^6.6.7"
+    sass: "npm:^1.70.0"
+    single-spa: "npm:^6.0.0"
     swc-loader: "npm:^0.2.3"
+    swr: "npm:^2.2.5"
     turbo: "npm:^2.5.2"
     typescript: "npm:^4.9.5"
     webpack: "npm:^5.88.1"
     webpack-cli: "npm:^5.1.4"
   peerDependencies:
-    "@openmrs/esm-framework": "*"
-    dayjs: 1.x
+    "@openmrs/esm-framework": 5.x
     react: 18.x
     react-i18next: 11.x
     react-router-dom: 6.x
@@ -3547,7 +3565,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@openmrs/esm-translations@npm:6.3.1-pre.2965":
+"@openmrs/esm-translations@npm:6.3.1-pre.2965, @openmrs/esm-translations@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-translations@npm:6.3.1-pre.2965"
   dependencies:
@@ -3558,7 +3576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-utils@npm:6.3.1-pre.2965":
+"@openmrs/esm-utils@npm:6.3.1-pre.2965, @openmrs/esm-utils@npm:next":
   version: 6.3.1-pre.2965
   resolution: "@openmrs/esm-utils@npm:6.3.1-pre.2965"
   dependencies:
@@ -3597,6 +3615,150 @@ __metadata:
   peerDependencies:
     webpack: 5.x
   checksum: 10/08009852cc0d4c7434c9fedfeea8fc553befbbbc8807d20abd0f0131036ff424b2a6870d44f1a17049c0107b8c3e3a8a62dfc818c67e2c7be898baa8be049e96
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-android-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-android-arm64@npm:2.5.1"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-darwin-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-darwin-arm64@npm:2.5.1"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-darwin-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-darwin-x64@npm:2.5.1"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-freebsd-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-freebsd-x64@npm:2.5.1"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-arm-glibc@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-arm-glibc@npm:2.5.1"
+  conditions: os=linux & cpu=arm & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-arm-musl@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-arm-musl@npm:2.5.1"
+  conditions: os=linux & cpu=arm & libc=musl
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-arm64-glibc@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-arm64-glibc@npm:2.5.1"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-arm64-musl@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-arm64-musl@npm:2.5.1"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-x64-glibc@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-x64-glibc@npm:2.5.1"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-linux-x64-musl@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-linux-x64-musl@npm:2.5.1"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-win32-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-win32-arm64@npm:2.5.1"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-win32-ia32@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-win32-ia32@npm:2.5.1"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher-win32-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher-win32-x64@npm:2.5.1"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@parcel/watcher@npm:^2.4.1":
+  version: 2.5.1
+  resolution: "@parcel/watcher@npm:2.5.1"
+  dependencies:
+    "@parcel/watcher-android-arm64": "npm:2.5.1"
+    "@parcel/watcher-darwin-arm64": "npm:2.5.1"
+    "@parcel/watcher-darwin-x64": "npm:2.5.1"
+    "@parcel/watcher-freebsd-x64": "npm:2.5.1"
+    "@parcel/watcher-linux-arm-glibc": "npm:2.5.1"
+    "@parcel/watcher-linux-arm-musl": "npm:2.5.1"
+    "@parcel/watcher-linux-arm64-glibc": "npm:2.5.1"
+    "@parcel/watcher-linux-arm64-musl": "npm:2.5.1"
+    "@parcel/watcher-linux-x64-glibc": "npm:2.5.1"
+    "@parcel/watcher-linux-x64-musl": "npm:2.5.1"
+    "@parcel/watcher-win32-arm64": "npm:2.5.1"
+    "@parcel/watcher-win32-ia32": "npm:2.5.1"
+    "@parcel/watcher-win32-x64": "npm:2.5.1"
+    detect-libc: "npm:^1.0.3"
+    is-glob: "npm:^4.0.3"
+    micromatch: "npm:^4.0.5"
+    node-addon-api: "npm:^7.0.0"
+    node-gyp: "npm:latest"
+  dependenciesMeta:
+    "@parcel/watcher-android-arm64":
+      optional: true
+    "@parcel/watcher-darwin-arm64":
+      optional: true
+    "@parcel/watcher-darwin-x64":
+      optional: true
+    "@parcel/watcher-freebsd-x64":
+      optional: true
+    "@parcel/watcher-linux-arm-glibc":
+      optional: true
+    "@parcel/watcher-linux-arm-musl":
+      optional: true
+    "@parcel/watcher-linux-arm64-glibc":
+      optional: true
+    "@parcel/watcher-linux-arm64-musl":
+      optional: true
+    "@parcel/watcher-linux-x64-glibc":
+      optional: true
+    "@parcel/watcher-linux-x64-musl":
+      optional: true
+    "@parcel/watcher-win32-arm64":
+      optional: true
+    "@parcel/watcher-win32-ia32":
+      optional: true
+    "@parcel/watcher-win32-x64":
+      optional: true
+  checksum: 10/2cc1405166fb3016b34508661902ab08b6dec59513708165c633c84a4696fff64f9b99ea116e747c121215e09619f1decab6f0350d1cb26c9210b98eb28a6a56
   languageName: node
   linkType: hard
 
@@ -8107,6 +8269,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chokidar@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "chokidar@npm:4.0.3"
+  dependencies:
+    readdirp: "npm:^4.0.1"
+  checksum: 10/bf2a575ea5596000e88f5db95461a9d59ad2047e939d5a4aac59dd472d126be8f1c1ff3c7654b477cf532d18f42a97279ef80ee847972fd2a25410bf00b80b59
+  languageName: node
+  linkType: hard
+
 "chownr@npm:^2.0.0":
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
@@ -9282,7 +9453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.10.4, dayjs@npm:^1.10.7":
+"dayjs@npm:^1.10.4, dayjs@npm:^1.10.7, dayjs@npm:^1.11.10":
   version: 1.11.13
   resolution: "dayjs@npm:1.11.13"
   checksum: 10/7374d63ab179b8d909a95e74790def25c8986e329ae989840bacb8b1888be116d20e1c4eee75a69ea0dfbae13172efc50ef85619d304ee7ca3c01d5878b704f5
@@ -9467,6 +9638,15 @@ __metadata:
   version: 1.2.0
   resolution: "destroy@npm:1.2.0"
   checksum: 10/0acb300b7478a08b92d810ab229d5afe0d2f4399272045ab22affa0d99dbaf12637659411530a6fcd597a9bdac718fc94373a61a95b4651bbc7b83684a565e38
+  languageName: node
+  linkType: hard
+
+"detect-libc@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "detect-libc@npm:1.0.3"
+  bin:
+    detect-libc: ./bin/detect-libc.js
+  checksum: 10/3849fe7720feb153e4ac9407086956e073f1ce1704488290ef0ca8aab9430a8d48c8a9f8351889e7cdc64e5b1128589501e4fef48f3a4a49ba92cd6d112d0757
   languageName: node
   linkType: hard
 
@@ -11806,7 +11986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:21.10.0, i18next@npm:^21.10.0":
+"i18next@npm:21.10.0, i18next@npm:^21.10.0, i18next@npm:^21.9.2":
   version: 21.10.0
   resolution: "i18next@npm:21.10.0"
   dependencies:
@@ -11815,7 +11995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^23.2.8, i18next@npm:^23.5.1":
+"i18next@npm:^23.5.1":
   version: 23.15.2
   resolution: "i18next@npm:23.15.2"
   dependencies:
@@ -11910,6 +12090,13 @@ __metadata:
   version: 4.3.7
   resolution: "immutable@npm:4.3.7"
   checksum: 10/37d963c5050f03ae5f3714ba7a43d469aa482051087f4c65d673d1501c309ea231d87480c792e19fa85e2eaf965f76af5d0aa92726505f3cfe4af91619dfb80b
+  languageName: node
+  linkType: hard
+
+"immutable@npm:^5.0.2":
+  version: 5.1.2
+  resolution: "immutable@npm:5.1.2"
+  checksum: 10/2d538ccf97c3e573a351d7d8a0554791d7a6527029cafd9d22507ce16ff7cb90bd8f1294e7c5166d9d471f8bbc0861989c4fb05caf96d6e7ee42975482bec2a7
   languageName: node
   linkType: hard
 
@@ -13775,7 +13962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:~4.0.8":
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:~4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -14152,6 +14339,15 @@ __metadata:
     lower-case: "npm:^2.0.2"
     tslib: "npm:^2.0.3"
   checksum: 10/0b2ebc113dfcf737d48dde49cfebf3ad2d82a8c3188e7100c6f375e30eafbef9e9124aadc3becef237b042fd5eb0aad2fd78669c20972d045bbe7fea8ba0be5c
+  languageName: node
+  linkType: hard
+
+"node-addon-api@npm:^7.0.0":
+  version: 7.1.1
+  resolution: "node-addon-api@npm:7.1.1"
+  dependencies:
+    node-gyp: "npm:latest"
+  checksum: 10/ee1e1ed6284a2f8cd1d59ac6175ecbabf8978dcf570345e9a8095a9d0a2b9ced591074ae77f9009287b00c402352b38aa9322a34f2199cdc9f567b842a636b94
   languageName: node
   linkType: hard
 
@@ -15921,7 +16117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^18.0.0":
+"react-is@npm:^18.0.0, react-is@npm:^18.2.0":
   version: 18.3.1
   resolution: "react-is@npm:18.3.1"
   checksum: 10/d5f60c87d285af24b1e1e7eaeb123ec256c3c8bdea7061ab3932e3e14685708221bf234ec50b21e10dd07f008f1b966a2730a0ce4ff67905b3872ff2042aec22
@@ -16051,6 +16247,13 @@ __metadata:
   dependencies:
     readable-stream: "npm:^3.6.0"
   checksum: 10/d3a5bf9d707c01183d546a64864aa63df4d9cb835dfd2bf89ac8305e17389feef2170c4c14415a10d38f9b9bfddf829a57aaef7c53c8b40f11d499844bf8f1a4
+  languageName: node
+  linkType: hard
+
+"readdirp@npm:^4.0.1":
+  version: 4.1.2
+  resolution: "readdirp@npm:4.1.2"
+  checksum: 10/7b817c265940dba90bb9c94d82920d76c3a35ea2d67f9f9d8bd936adcfe02d50c802b14be3dd2e725e002dddbe2cc1c7a0edfb1bc3a365c9dfd5a61e612eea1e
   languageName: node
   linkType: hard
 
@@ -16557,6 +16760,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.70.0":
+  version: 1.89.0
+  resolution: "sass@npm:1.89.0"
+  dependencies:
+    "@parcel/watcher": "npm:^2.4.1"
+    chokidar: "npm:^4.0.0"
+    immutable: "npm:^5.0.2"
+    source-map-js: "npm:>=0.6.2 <2.0.0"
+  dependenciesMeta:
+    "@parcel/watcher":
+      optional: true
+  bin:
+    sass: sass.js
+  checksum: 10/e8a5ce1a011fbbb20b454bd7db9d28527baae157c2a583c3ff68ca52f4fe97cec9a4ec18811e6509ef4199349286dce3c24c02a3536000d6e6107778f870435f
+  languageName: node
+  linkType: hard
+
 "sax@npm:>=0.6.0":
   version: 1.4.1
   resolution: "sax@npm:1.4.1"
@@ -16905,7 +17125,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"single-spa@npm:^6.0.3":
+"single-spa@npm:^6.0.0, single-spa@npm:^6.0.3":
   version: 6.0.3
   resolution: "single-spa@npm:6.0.3"
   checksum: 10/bdb00c205cf849e0392d5b734869d7fe57d99a985c05f190e281f038d1cb3c052e0e06f9216893b74ca60cce3bd5ad03b02b2144981143b4008c171b3e5e34ca
